@@ -15,6 +15,10 @@ class ArgumentParseError extends Exception {
     }
 }
 
+/*
+This is way too overengineered for what I need to use it for.
+*/
+
 public class Arguments {
     final String[] arguments;
 
@@ -112,7 +116,6 @@ public class Arguments {
                 return fileOrPathOrNonExistant.FILE;
             }
         }
-
     }
 
     private Optional<HashMap<String, String>> createFlagAndFileLocationHashMap() {

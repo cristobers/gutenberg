@@ -8,6 +8,13 @@ import java.util.HashMap;
 
 import com.Arguments.fileOrPathOrNonExistant;
 
+/*
+TODO:
+    * A useage command would be nice.
+    * Sanitize the outputted html (make it sit nicely in the file with the other HTML tags.)
+        * This also means make sure the user isnt putting in <script> tags.
+*/
+
 public class Main {
     public static void main(String[] args) {
 
