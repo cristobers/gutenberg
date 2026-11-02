@@ -2,3 +2,6 @@
 .mvn/
 target/
 test.html
+markdown.md
+output.html
+template.html
